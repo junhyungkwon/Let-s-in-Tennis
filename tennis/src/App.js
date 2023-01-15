@@ -63,15 +63,3 @@ export default Users;
 
 
 
- //  axios.get('https://openapi.gg.go.kr/PublicTennis?KEY=6218b81ea45140b9b6c531cd21b52257&Type=json', {
-     
-  //  }).then(function(response){
-  //    console.log(response.data);
-  //  });
-  // return (
-    
-  //   <div className="App">
-      
-      
-  //   </div>
-  // );
