@@ -23,6 +23,7 @@ function Data() {
           console.log({ key });
           setUsers(key.row);
         });
+
         console.log(response.data.PublicTennis);
       });
   };
@@ -39,8 +40,9 @@ function Data() {
       <ul>
         {users.map((user) => (
           <li key={user}>
-            {user.SIGUN_NM} ({user.RM_MATR} {user.BOTM_MATRL_NM}
-            {user.FACLT_NM})
+            <p>{user.SIGUN_NM}</p>
+            {user.RM_MATR} {user.BOTM_MATRL_NM} {user.FACLT_NM}
+            {user.BOTM_MATRL_NM}
           </li>
         ))}
       </ul>
